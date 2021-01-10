@@ -1,0 +1,25 @@
+doctype html
+html(lang="ru")
+
+    block head
+        head
+            meta(charset="utf-8")
+            meta(name="viewport", content="width=device-width, initial-scale=1.0")
+            //- link(rel="stylesheet", href="css/swiper-bundle.css")
+            link(rel="stylesheet", href="css/style.min.css")
+
+            title Title
+    body
+        block header
+            include header
+        
+        block content
+            include content
+            
+        block footer   
+            include footer
+
+    block scripts
+        //- script(src="js/swiper-bundle.js")
+        script(src="js/main.js")
+
